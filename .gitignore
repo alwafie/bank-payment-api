@@ -1,0 +1,37 @@
+# Go binary executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go object files
+*.o
+*.a
+
+# Go test binary, build output
+/test
+
+# VS Code directory
+.vscode/
+
+# IDE-specific files
+.idea/
+*.iml
+
+# Dependency directories
+/vendor/
+
+# Build directories
+/build/
+out/
+
+# Go workspace directories (can be ignored if using Go modules)
+Godeps/
+GOPATH/
+
+# Ignore coverage reports
+*.out
+
+# Ignore .env file for sensitive data
+.env
